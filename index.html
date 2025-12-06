@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karells Portfolio</title>
+  <link rel="icon" type="image/png" href="./img/Logo.png">
+  <!--CSS-->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--Navigation bar-->
+<nav id="navigation" class="navbar navbar-expand-lg py-3 fixed-top custom-nav">
+  <div class="container-fluid">
+
+    <!-- Logo + Name -->
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      Karell Catapang
+    </a>
+
+    <!-- mobile toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ms-auto align-items-center gap-3">
+
+        <li class="nav-item">
+          <a class="nav-link active-link px-3 py-1" href="#herosection">HOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3 py-1" href="#aboutme">ABOUT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3 py-1" href="#featuredProjects">PROJECT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3 py-1" href="#getInTouch">CONTACT</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!--Hero Section-->
+  <div id="herosection" class="min-vh-100 d-flex align-items-center px-10 text-center">
+    <div class="container">
+      <img src="./img/Karell photo.png" alt="Karell photo" id="profilePicture" class="mb-3">
+      <h1 class="display-2 fw-bold">Hi, I’m Karell Catapang</h1>
+      <h3 class="fw-bold">Frontend & Designer</h3>
+      <p class="lead">I’m a Frontend Developer and Designer who loves building websites that look good and feel great to use. I focus on clean layouts, smooth interactions, and responsive design. I’m always learning new ways to improve my work and create better experiences for users.</p>
+      <div class="social-icons d-flex justify-content-center">
+        <a href="https://www.facebook.com/karell.catapang" target="_blank">
+          <div class="icon-border d-flex align-items-center justify-content-center me-3">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/karell.catapang/?fbclid=IwY2xjawORQjxleHRuA2FlbQIxMABicmlkETE5VGNxbE1EWnFadDhFTjNvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjs190xExudwz4G_9szYpK9u2ga7yjEkZUZncPiPeHZ1gU1UZuVPY4LHgmGR_aem_VAqxVz97WZdUKK6sltzuwg#">
+          <div class="icon-border d-flex align-items-center justify-content-center me-3">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--About Me-->
+  <div id="aboutme" class="min-vh-100 d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h2 id="title" class="display-3 fw-bold">About me</h2>
+          <p class="text-center mb-5">Get to know more about my background and skills</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+
+          <div id="whoIAm" class="display-6 fw-bold mb-3">Who I am</div>
+          <p class="lead">I was born and raised in Muscat, Oman, where I first discovered my interest in technology and design. Growing up in a multicultural environment shaped my perspective and fueled my curiosity about how digital experiences are built. Over time, this curiosity turned into a passion for creating interfaces that are both visually appealing and intuitive for users.</p>
+
+           <p class="lead">Today, I am a college student at Trinity University of Asia, pursuing a degree in Software Engineering. I’m committed to developing my skills in frontend development, design, and problem-solving as I work toward becoming a versatile and innovative creator in the tech field. Every project I take on is an opportunity to learn, improve, and bring ideas to life through thoughtful and purposeful design.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Technical Skills-->
+  <div id="technicalSkills" class="my-5 min-vh-50 p-5">
+    <div class="container text-center">
+      <h1 class="fw-bold display-3 fw-bold">Technical Skills</h1>
+      <p>My expertise across various technologies and tools</p>
+
+      <div class="toggle-btn mt-3">
+        <button id="btnLang" class="active">Language</button>
+        <button id="btnTools">Tools</button>
+      </div>
+
+      <div id="skillsDisplay" class="skills-box mt-4">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">Bootstrap</div>
+        <div class="skill-item">JavaScript</div>
+      </div>
+    </div>
+  </div>
+
+  <!--Featured Projects-->
+  <div id="featuredProjects" class="min-vh-100 d-flex align-items-center justify-content-center pt-4 px-4">
+    <div class="container">
+
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h2 class="display-3 fw-bold">Featured Projects</h2>
+          <p class="text-center mb-5">Check out some of my recent work</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!--Card-->
+        <div class="col-12 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="./img/LibraryHub.jpg">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-3">LibraryHub</h5>
+              <p class="lead fs-6">LibraryHub is a modern, user-friendly platform that lets students and readers easily search, borrow, and manage books online.</p>
+              <a href="https://humphreydc.github.io/LibraryHub/" class="btn btn-info" target="_blank"><i class="fa-solid fa-link me-1"></i>View Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Card-->
+        <div class="col-12 col-md-6 mb-3">
+          <div class="card">
+            <img class="card-img-top" src="./img/Flappy Duck.png">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-3">Flappy Duck</h5>
+              <p class="lead fs-6">FlappyDuck’s website introduces a fun tap-to-fly arcade game where players tap the duck to make it go higher and dodge incoming obstacles.</p>
+               <a href="https://karekare1234.github.io/FlappyDuck/" class="btn btn-info" target="_blank"><i class="fa-solid fa-link me-1"></i>View Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Certificate-->
+  <div id="certificate" class="min-vh-100 d-flex align-items-center justify-content-center p-4">
+    <div class="container">
+
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h2 class="display-3 fw-bold">Certificate</h2>
+          <p class="text-center mb-5">A showcase of my completed certificates</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!--Card-->
+        <dialog id="view-certificate" class="p-3 border-0 rounded-3" style="max-width: 700px; width: 90%;">
+    <!-- Close Button Row -->
+    <div class="d-flex justify-content-end align-items-center mb-3">
+        <button class="btn btn-link p-0" id="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M20 20L4 4m16 0L4 20"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Image -->
+    <img src="./img/Certificate-illustration.png" alt="responsive web design certificate" class="img-fluid rounded">
+</dialog>
+
+        <div id="openCertificate1" class="col-12 col-md-6 mb-3">
+          <div class="card">
+            <card class="card-body">
+              <div class="card-title fw-bold display-6" style="color: white;">CIIT (College of Arts and Technology)</div>
+              <div class="card-text pb-5 fw-bold" style="color: white;">Digital Illustration and Page Design</div>
+
+              <div class="card-subtitle pt-5 fw-bold" style="color: white;">Jan 13, 2024 - Mar 16, 2024</div>
+            </card>
+          </div>
+        </div>
+
+        <!--Card-->
+
+        <dialog id="view-certificate-web" class="p-3 border-0 rounded-3" style="max-width: 700px; width: 90%;">
+    <!-- Close Button Row -->
+    <div class="d-flex justify-content-end align-items-center mb-3">
+        <button class="btn btn-link p-0" id="close-button2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M20 20L4 4m16 0L4 20"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Image -->
+    <img src="./img/Certificate-web.png" alt="responsive web design certificate" class="img-fluid rounded">
+</dialog>
+
+        <div id="openCertificate2" class="col-12 col-md-6 mb-3">
+          <div class="card">
+            <card class="card-body">
+              <div class="card-title fw-bold display-6" style="color: white;">CIIT (College of Arts and Technology)</div>
+              <div class="card-text pb-5 fw-bold" style="color: white;">Web Design </div>
+
+              <div class="card-subtitle pt-5 fw-bold" style="color: white;">Oct 28, 2023 - Jan 20, 2024</div>
+            </card>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--Contact-->
+  <div id="getInTouch" class="min-vh-100 pt-5">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="row">
+      <div class="col d-flex flex-column align-items-center">
+        <h2 class="display-3 fw-bold">Get in Touch</h2>
+        <p class="text-center mb-5">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
+      </div>
+    </div>
+
+    <!-- 2 Columns -->
+    <div class="row">
+
+      <!-- LEFT COLUMN (Form) -->
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card" style="background-color: #2D2D2D;">
+          <div class="card-body">
+
+            <div class="send-message fw-bold fs-5 mb-2" style="color: white;">Send me a message</div>
+            <p class="mb-5 fs-6">Fill out the form below and I'll get back to you as soon as possible.</p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+              <input type="hidden" name="access_key" value="ecc93b08-4c53-4d90-8b28-07a225f411e0">
+              <!-- Name -->
+              <label for="name" class="fw-semibold mt-2 pb-2" style="color: white;">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your full name"
+                class="form-control"
+                required />
+
+              <!-- Email -->
+              <label for="email" class="fw-semibold mt-3 pb-2" style="color: white;">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                class="form-control"
+                required />
+
+              <!-- Subject -->
+              <label for="subject" class="fw-semibold mt-3 pb-2" style="color: white;">Subject</label>
+              <input
+                id="subject"
+                name="subject"
+                type="text"
+                placeholder="Subject of your message"
+                class="form-control"
+                required />
+
+              <!-- Message -->
+              <label for="message" class="fw-semibold mt-3 pb-2" style="color: white;">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here..."
+                rows="6"
+                class="form-control"
+                required></textarea>
+
+              <!-- Button -->
+              <button type="submit" class="btn btn-secondary mt-3 fw-bold" style="width: 100%; color: white;">Send Message</button>
+
+            </form>
+
+            <!-- Success Popup -->
+              <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content" style="background-color: #2D2D2D; border: none;">
+                    <div class="modal-body text-center p-5">
+                      <h4 class="fw-bold text-white mb-3">Message Sent!</h4>
+                      <p class="text-white mb-4">Thank you for reaching out. I’ll get back to you as soon as possible.</p>
+                      <button class="btn btn-secondary fw-bold" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN (Social Contact Info) -->
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card" style="background-color: #2D2D2D;">
+          <div class="card-body">
+
+            <div class="send-message fs-5 fw-bold mb-2" style="color: white;">Contact Information</div>
+            <p class="mb-5">You can also reach out to me directly through these channels</p>
+
+            <div class="card mb-3" style="border: 2px solid white; background-color: #313131;">
+              <div class="card-body">
+                <div class="social fw-bold" style="color: white;">Facebook</div>
+                <div class="username" style="color: white;">karell.catapang</div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="border: 2px solid white; background-color: #313131;">
+              <div class="card-body">
+                <div class="social fw-bold" style="color: white;">Instagram</div>
+                <div class="username" style="color: white;">karell.catapang</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<footer class="text-center">
+  <p class="text" style="color: white;">Built by Karell Catapang • Student portfolio</p>
+</footer>
+
+  <!--JavaScript-->
+  <script src="./js/script.js"></script>
+</body>
+</html>
